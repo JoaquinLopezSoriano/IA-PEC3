@@ -2293,12 +2293,14 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
-  target: {fileID: 0}
   walk: 1
   sprint: 3
   maxAcceleration: 10
-  movementDistance: 7
+  movementDistance: 2
   detectionDistance: 0.5
+  waitingTime: 5
+  detectionRadius: 5
+  areaMaskName: 0
 --- !u!114 &740960313266094659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2312,7 +2314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 8
+    VectorObservationSize: 25
     NumStackedVectorObservations: 1
     m_ActionSpec:
       m_NumContinuousActions: 2
@@ -2322,8 +2324,8 @@ MonoBehaviour:
     VectorActionSpaceType: 1
     hasUpgradedBrainParametersWithActionSpec: 1
   m_Model: {fileID: 0}
-  m_InferenceDevice: 3
-  m_BehaviorType: 1
+  m_InferenceDevice: 1
+  m_BehaviorType: 0
   m_BehaviorName: Dummy
   TeamId: 0
   m_UseChildSensors: 1
@@ -2353,7 +2355,7 @@ CharacterController:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1984
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2385,7 +2387,7 @@ Rigidbody:
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1984
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0

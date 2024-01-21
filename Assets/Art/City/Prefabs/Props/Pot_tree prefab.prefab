@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4790015206267544}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pot_tree prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,9 @@ GameObject:
   - component: {fileID: 23329289922758508}
   - component: {fileID: 65671619047029818}
   - component: {fileID: 382787605369260557}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pot_tree
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

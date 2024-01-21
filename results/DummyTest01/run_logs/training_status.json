@@ -1,0 +1,29 @@
+{
+    "Dummy": {
+        "checkpoints": [
+            {
+                "steps": 62891,
+                "file_path": "results\\DummyTest01\\Dummy\\Dummy-62891.onnx",
+                "reward": 0.2222222222222222,
+                "creation_time": 1705870944.4508078,
+                "auxillary_file_paths": [
+                    "results\\DummyTest01\\Dummy\\Dummy-62891.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 62891,
+            "file_path": "results\\DummyTest01\\Dummy.onnx",
+            "reward": 0.2222222222222222,
+            "creation_time": 1705870944.4508078,
+            "auxillary_file_paths": [
+                "results\\DummyTest01\\Dummy\\Dummy-62891.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

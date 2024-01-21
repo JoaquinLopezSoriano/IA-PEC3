@@ -10,6 +10,7 @@ TagManager:
   - Flee
   - Void
   - Target
+  - No Walkable
   layers:
   - Default
   - TransparentFX

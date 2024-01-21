@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 23105119379756468}
   - component: {fileID: 64375586858561320}
   - component: {fileID: 4578110046214162422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,9 +132,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4231348148320386}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone 3 Prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

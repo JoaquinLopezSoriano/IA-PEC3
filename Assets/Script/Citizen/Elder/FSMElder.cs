@@ -57,7 +57,7 @@ namespace Script.Citizen.Elder
         // checks if the elder citizen is near a bench
         private void OnTriggerEnter(Collider other)
         {
-            if (Time.time >= _lastTimeWaited && other.tag.Equals(Constant.Collider.BENCH))
+            if (Time.time >= _lastTimeWaited && other.tag.Equals(Constant.Tag.BENCH))
             {
                 _delayWaitingState.ToDelayWaitingState();
             }

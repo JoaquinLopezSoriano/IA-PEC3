@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4589919683574084}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone 2 Prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6899998, y: 1.6899995, z: 1.6899995}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4817849671777348}
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 23452497388716906}
   - component: {fileID: 64550549189976478}
   - component: {fileID: 3438232912472616579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

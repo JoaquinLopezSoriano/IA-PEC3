@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 23033937103755954}
   - component: {fileID: 64444443302316780}
   - component: {fileID: 3122588195879106063}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone pot
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,9 +133,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4653968508409896}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone pot prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -43,16 +43,16 @@ namespace Script.Game
             public const string LOCOMOTION = "Locomotion";
         }
         
-        // Collider Tags
-        public struct Collider
-        {
-            public const string BENCH = "Bench";
-        }
         
+        // Collider Tags
         public struct Tag
         {
+            public const string BENCH = "Bench";
             public const string TARGET = "Target";
             public const string VOID = "Void";
+            public const string NO_WALKABLE = "No Walkable";
+            public const string CITIZEN = "Citizen";
+            public const string PLAYER = "Player";
         }
    
 

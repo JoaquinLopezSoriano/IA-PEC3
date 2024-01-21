@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4061433567504106}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bench 2 prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 23672443452224224}
   - component: {fileID: 65948236655739990}
   - component: {fileID: 1723468502533501026}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Bench 2
   m_TagString: Bench
   m_Icon: {fileID: 0}

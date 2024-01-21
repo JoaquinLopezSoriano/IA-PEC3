@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4214142964039086}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: StoneStreet prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,9 +45,9 @@ GameObject:
   - component: {fileID: 23196913774265854}
   - component: {fileID: 64660680248632714}
   - component: {fileID: 8445220017824072794}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: StoneStreet
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

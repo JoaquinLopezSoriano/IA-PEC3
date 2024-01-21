@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4128071732523052}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stone 1 Prefab
-  m_TagString: Untagged
+  m_TagString: No Walkable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 23379582426746500}
   - component: {fileID: 64825962136085880}
   - component: {fileID: 6211544757799407404}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: stone 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

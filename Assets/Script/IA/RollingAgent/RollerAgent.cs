@@ -54,7 +54,7 @@ namespace Script.IA.RollingAgent
         public override void OnEpisodeBegin()
         {
             // If the Agent fell, zero its momentum
-            if (this.transform.localPosition.y < 0)
+            if (transform.localPosition.y < 0)
             {
                 _rBody.angularVelocity = Vector3.zero;
                 _rBody.velocity = Vector3.zero;
@@ -79,6 +79,7 @@ namespace Script.IA.RollingAgent
             // Agent velocity
             sensor.AddObservation(_rBody.velocity.x);
             sensor.AddObservation(_rBody.velocity.z);
+
         }
 
         // ReSharper disable Unity.PerformanceAnalysis
@@ -118,6 +119,8 @@ namespace Script.IA.RollingAgent
             var continuousActionsOut = actionsOut.ContinuousActions;
             continuousActionsOut[0] = movement.x;
             continuousActionsOut[1] = movement.y;
+            Debug.Log(_rBody.velocity);
+
         }
 
         /*

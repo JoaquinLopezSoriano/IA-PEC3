@@ -8,6 +8,8 @@ TagManager:
   - Bench
   - Monster
   - Flee
+  - Void
+  - Target
   layers:
   - Default
   - TransparentFX
@@ -18,10 +20,10 @@ TagManager:
   - Walkable
   - Not Walkable
   - Taichi
-  - 
-  - 
-  - 
-  - 
+  - Floor
+  - Void
+  - Target
+  - Agent
   - 
   - 
   - 
